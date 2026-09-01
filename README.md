@@ -5,6 +5,7 @@
 - Luis Otavio - 10730958
 - Matheus Silva - 10723871
 - Matheus Romano - 10723806
+- Henrique Gomes - 10419795
 
 ## Objetivo do Projeto
 
