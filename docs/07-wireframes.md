@@ -28,7 +28,7 @@ Eles não definem uma tecnologia específica de implementação, servindo apenas
 
 O mapa de telas apresenta o encadeamento geral das interfaces do sistema e demonstra a cobertura dos principais fluxos funcionais.
 
-![WF00 - Mapa de Telas](./imagens/wireframes/wf00-mapa-telas.png)
+<img width="1065" height="658" alt="00" src="https://github.com/user-attachments/assets/2f8e1b72-b9dd-4b76-bfc8-02e755d592e2" />
 
 ---
 
@@ -42,7 +42,8 @@ Está relacionado ao:
 
 O sistema identifica o perfil do usuário e disponibiliza somente as operações permitidas para Administrador/Organizador ou Participante.
 
-![WF01 - Autenticação](./imagens/wireframes/wf01-autenticacao.png)
+<img width="975" height="623" alt="0" src="https://github.com/user-attachments/assets/e9b098b4-23a3-4757-82b8-f756f8135bfb" />
+
 
 ---
 
@@ -64,7 +65,8 @@ Permite representar operações como:
 - localização;
 - bloqueios ou indisponibilidades.
 
-![WF02 - Locais](./imagens/wireframes/wf02-locais.png)
+<img width="994" height="622" alt="02" src="https://github.com/user-attachments/assets/b6d10f78-6607-40b2-b40f-d92d73632ee7" />
+
 
 ---
 
@@ -79,7 +81,8 @@ Está relacionado aos casos de uso:
 
 O fluxo considera a disponibilidade do local, o horário e a capacidade necessária antes da criação do evento.
 
-![WF03 - Disponibilidade e Evento](./imagens/wireframes/wf03-disponibilidade-evento.png)
+<img width="993" height="636" alt="03" src="https://github.com/user-attachments/assets/340028f9-152b-4943-b74d-629b18b99dc5" />
+
 
 ---
 
@@ -97,7 +100,7 @@ Quando houver vagas, a inscrição pode ser confirmada.
 
 Quando o evento estiver lotado e a fila estiver habilitada, o participante poderá ingressar na fila de espera.
 
-![WF04 - Catálogo e Inscrição](./imagens/wireframes/wf04-catalogo-inscricao.png)
+<img width="991" height="598" alt="04" src="https://github.com/user-attachments/assets/b430fe0e-78ea-494d-b60e-0dcd3cf367e8" />
 
 ---
 
@@ -120,7 +123,8 @@ A interface apresenta as inscrições e seus respectivos estados, como:
 
 Também permite acesso aos recursos relacionados ao check-in e aos certificados quando aplicável.
 
-![WF05 - Área do Participante](./imagens/wireframes/wf05-area-participante.png)
+<img width="993" height="635" alt="05" src="https://github.com/user-attachments/assets/b57d0815-3627-4f96-baa6-7f1d0f1c7364" />
+
 
 ---
 
@@ -140,7 +144,8 @@ O participante apresenta seu identificador, que pode ser:
 
 O sistema valida a inscrição e registra a presença e o horário quando o check-in for aceito.
 
-![WF06 - Check-in](./imagens/wireframes/wf06-checkin.png)
+<img width="993" height="591" alt="06" src="https://github.com/user-attachments/assets/a3f367a7-babb-4f02-a03a-40a24ff8a2b0" />
+
 
 ---
 
@@ -157,7 +162,8 @@ O participante com presença registrada pode obter seu certificado.
 
 A organização pode verificar sua autenticidade utilizando o código único de verificação.
 
-![WF07 - Certificados](./imagens/wireframes/wf07-certificados.png)
+<img width="992" height="631" alt="07" src="https://github.com/user-attachments/assets/014bd86f-5b11-42a5-b09d-ad52091d2f87" />
+
 
 ---
 
@@ -179,7 +185,8 @@ A interface apresenta informações como:
 
 Também permite o ajuste administrativo da quantidade de vagas.
 
-![WF08 - Painel Administrativo](./imagens/wireframes/wf08-painel-administrativo.png)
+<img width="998" height="636" alt="08" src="https://github.com/user-attachments/assets/2ad54630-9a15-4c5a-8cc6-b0375c187f83" />
+
 
 ---
 
