@@ -6,6 +6,7 @@
 - Matheus Silva - 10723871
 - Matheus Romano - 10723806
 - Henrique Gomes - 10419795
+- Sabryna Miyasaki - 10723723
 
 ## Objetivo do Projeto
 
