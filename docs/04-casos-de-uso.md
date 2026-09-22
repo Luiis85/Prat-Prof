@@ -13,49 +13,7 @@
 ### 4.2 Diagrama de casos de uso
 
 A Figura 1 apresenta o diagrama UML de casos de uso da solução. O relacionamento `<<include>>` indica que a gestão de eventos utiliza a consulta de disponibilidade para evitar conflito de agenda. O relacionamento `<<extend>>` indica que a inscrição pode ser estendida pela fila de espera quando não houver vaga. O ator Sistema participa da promoção automática da fila.
-
-```mermaid
-graph LR
-    Admin([Administrador / Organizador])
-    Part([Participante])
-    Sys([Sistema])
-
-    UC01(UC01 Autenticar usuário)
-    UC02(UC02 Gerenciar auditórios e locais)
-    UC03(UC03 Consultar disponibilidade)
-    UC04(UC04 Gerenciar eventos)
-    UC05(UC05 Consultar catálogo de eventos)
-    UC06(UC06 Inscrever-se em evento)
-    UC07(UC07 Cancelar inscrição)
-    UC08(UC08 Ingressar na fila de espera)
-    UC09(UC09 Consultar área do participante)
-    UC10(UC10 Realizar check-in)
-    UC11(UC11 Obter certificado)
-    UC12(UC12 Verificar certificado)
-    UC13(UC13 Acompanhar operação do evento)
-
-    Admin --- UC01
-    Admin --- UC02
-    Admin --- UC03
-    Admin --- UC04
-    Admin --- UC10
-    Admin --- UC12
-    Admin --- UC13
-
-    Part --- UC01
-    Part --- UC05
-    Part --- UC06
-    Part --- UC07
-    Part --- UC08
-    Part --- UC09
-    Part --- UC11
-
-    Sys --- UC08
-    Sys --- UC11
-
-    UC04 -.include.-> UC03
-    UC06 -.extend.-> UC08
-```
+<img width="1672" height="941" alt="Imagem do Codex 22 de set  de 2026, 14_40_55" src="https://github.com/user-attachments/assets/e853250c-527e-4b87-a45d-fe7987a1b2bc" />
 
 *Figura 1 — Diagrama de casos de uso do Sistema de Gestão de Eventos e Auditórios.*
 
